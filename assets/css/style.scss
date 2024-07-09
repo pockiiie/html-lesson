@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(8, 51, 68);
+    color: white;
+}
+
+.code {
+    margin: 8px 0px 8px 0px;
+    background-color: #272822;
+    padding: 2em;
+    border-radius: 0.4em;
+    font-size: 1em;
+    color: white;
+
+    span.title {
+        display:block;
+        font-weight: bold;
+        position: relative;
+        top: -16px;
+    }
+}
+
+.markup {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+code {
+    color: black;
+    background-color: rgb(187, 253, 255);
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0px 2px 0px 2px;
+
+    &.markup {
+        &:before {
+            content: "<"
+        }
+
+        &:after {
+            content: ">"
+        }
+    }
+
+    &.markup-end {
+        &:before {
+            content: "</"
+        }
+
+        &:after {
+            content: ">"
+        }
+    }
+
+}
+
+.icon {
+    margin-bottom: 0.2em;
+}
+
+.lesson-content {
+
+    p {
+        margin-bottom: 1em;
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 2em;
+        margin-bottom: 1.2em;
+    }
+}
+
+.lesson-header {
+    font-weight: bolder;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+.lesson-wrapper {
+    padding-bottom: 2em;
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition: all 0.4s;
+}
+
+.page-enter-from,
+.page-leave-to {
+    opacity: 0;
+    filter: blur(1rem);
+}
