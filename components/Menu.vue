@@ -96,6 +96,14 @@ const lessons = [
                 label: "Images",
                 to: "/lessons/06"
             },
+            {
+                label: "Background Images",
+                to: "/lessons/06/backgrounds"
+            },
+            {
+                label: "Picture Elements",
+                to: "/lessons/06/elements"
+            }
         ],
     }
 ]

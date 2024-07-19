@@ -14,7 +14,7 @@ const props = defineProps({
         <span class="text-rose-500">{{ name }}</span>
         <span v-for="attr in attrs" v-if="attrs">
             <span v-for="(value, key) in attr">
-                <span class="text-lime-500">&nbsp;{{ key }}</span>
+                <span class="text-lime-500">&nbsp;{{ useKebabCase(key) }}</span>
                 <span>=</span>
                 <span class="text-yellow-200">"{{ value }}"</span>
             </span>
