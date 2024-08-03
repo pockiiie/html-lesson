@@ -63,7 +63,7 @@ const lessons = [
             },
             {
                 label: "Excercise",
-                to: "/excercises/css"
+                to: "/excercises/04"
             }
         ],
         content: ["CSS"]
@@ -103,6 +103,14 @@ const lessons = [
             {
                 label: "Picture Elements",
                 to: "/lessons/06/elements"
+            },
+            {
+                label: "Image Map",
+                to: "/lessons/06/map"
+            },
+            {
+                label: "Excercise",
+                to: "/excercises/06"
             }
         ],
     }

@@ -9,7 +9,7 @@ const props = defineProps({
 })
 </script>
 <template>
-    <div class="markup">
+    <div class="markup text-wrap">
         <span>&lt;</span>
         <span class="text-rose-500">{{ name }}</span>
         <span v-for="attr in attrs" v-if="attrs">
@@ -17,6 +17,7 @@ const props = defineProps({
                 <span class="text-lime-500">&nbsp;{{ useKebabCase(key) }}</span>
                 <span>=</span>
                 <span class="text-yellow-200">"{{ value }}"</span>
+                <br v-if="attrs.length > 3">
             </span>
         </span>
         <span v-if="!$slots.default && !$slots.indent">
