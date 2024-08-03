@@ -122,6 +122,15 @@ const lessons = [
                 to: "/lessons/07"
             }
         ]
+    },
+    {
+        label: "Lesson 8",
+        links: [
+            {
+                label: "Page Title",
+                to: "/lessons/08"
+            }
+        ]
     }
 ]
 
