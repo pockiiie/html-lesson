@@ -113,6 +113,15 @@ const lessons = [
                 to: "/excercises/06"
             }
         ],
+    },
+    {
+        label: "Lesson 7",
+        links: [
+            {
+                label: "Favicon",
+                to: "/lessons/07"
+            }
+        ]
     }
 ]
 
